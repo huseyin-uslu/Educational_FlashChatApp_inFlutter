@@ -132,8 +132,6 @@ class StreamBuilderWidget extends StatelessWidget {
           final messageComeFrom = msg["sender"];
           final currentUser = loggedInUser.email;
 
-          if (currentUser == messageComeFrom) {}
-
           messageBubbleWidgets.add(MessageBubble(
               sender: '$messageComeFrom',
               text: '$messageText',
